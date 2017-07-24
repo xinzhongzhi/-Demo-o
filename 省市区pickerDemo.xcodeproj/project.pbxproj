@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD918490E821B6B633959783 /* libPods-省市区pickerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D725F7B613B1D39708855A11 /* libPods-省市区pickerDemo.a */; };
 		C4C1A4521F1F37740043F63B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C1A4511F1F37740043F63B /* main.m */; };
 		C4C1A4551F1F37740043F63B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C1A4541F1F37740043F63B /* AppDelegate.m */; };
-		C4C1A4581F1F37740043F63B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C1A4571F1F37740043F63B /* ViewController.m */; };
 		C4C1A45B1F1F37740043F63B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C1A4591F1F37740043F63B /* Main.storyboard */; };
 		C4C1A45D1F1F37740043F63B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4C1A45C1F1F37740043F63B /* Assets.xcassets */; };
 		C4C1A4601F1F37740043F63B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C1A45E1F1F37740043F63B /* LaunchScreen.storyboard */; };
 		C4C1A46B1F1F37740043F63B /* ___pickerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C1A46A1F1F37740043F63B /* ___pickerDemoTests.m */; };
 		C4C1A4761F1F37740043F63B /* ___pickerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C1A4751F1F37740043F63B /* ___pickerDemoUITests.m */; };
+		C4C1A4881F1F37870043F63B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C1A4841F1F37870043F63B /* ViewController.m */; };
+		C4C1A4891F1F37870043F63B /* addressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C1A4861F1F37870043F63B /* addressModel.m */; };
+		C4C1A48C1F1F39BF0043F63B /* area.json in Resources */ = {isa = PBXBuildFile; fileRef = C4C1A48B1F1F39BF0043F63B /* area.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01D8FDD0976092A2F8B94897 /* Pods-省市区pickerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-省市区pickerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-省市区pickerDemo/Pods-省市区pickerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9663D5E61C9D409302950F56 /* Pods-省市区pickerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-省市区pickerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-省市区pickerDemo/Pods-省市区pickerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C4C1A44D1F1F37740043F63B /* 省市区pickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "省市区pickerDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4C1A4511F1F37740043F63B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4C1A4531F1F37740043F63B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C4C1A4541F1F37740043F63B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C4C1A4561F1F37740043F63B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C4C1A4571F1F37740043F63B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C4C1A45A1F1F37740043F63B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4C1A45C1F1F37740043F63B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4C1A45F1F1F37740043F63B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,12 @@
 		C4C1A4711F1F37740043F63B /* 省市区pickerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "省市区pickerDemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4C1A4751F1F37740043F63B /* ___pickerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___pickerDemoUITests.m"; sourceTree = "<group>"; };
 		C4C1A4771F1F37740043F63B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4C1A4831F1F37870043F63B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C4C1A4841F1F37870043F63B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4C1A4851F1F37870043F63B /* addressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addressModel.h; sourceTree = "<group>"; };
+		C4C1A4861F1F37870043F63B /* addressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addressModel.m; sourceTree = "<group>"; };
+		C4C1A48B1F1F39BF0043F63B /* area.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = area.json; sourceTree = "<group>"; };
+		D725F7B613B1D39708855A11 /* libPods-省市区pickerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-省市区pickerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD918490E821B6B633959783 /* libPods-省市区pickerDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +88,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26C2677C209380151026491B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D725F7B613B1D39708855A11 /* libPods-省市区pickerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31BF08A1D0770317F11CF384 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9663D5E61C9D409302950F56 /* Pods-省市区pickerDemo.debug.xcconfig */,
+				01D8FDD0976092A2F8B94897 /* Pods-省市区pickerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C4C1A4441F1F37740043F63B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +112,8 @@
 				C4C1A4691F1F37740043F63B /* 省市区pickerDemoTests */,
 				C4C1A4741F1F37740043F63B /* 省市区pickerDemoUITests */,
 				C4C1A44E1F1F37740043F63B /* Products */,
+				31BF08A1D0770317F11CF384 /* Pods */,
+				26C2677C209380151026491B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +130,13 @@
 		C4C1A44F1F1F37740043F63B /* 省市区pickerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C4C1A48B1F1F39BF0043F63B /* area.json */,
+				C4C1A4831F1F37870043F63B /* ViewController.h */,
+				C4C1A4841F1F37870043F63B /* ViewController.m */,
+				C4C1A4851F1F37870043F63B /* addressModel.h */,
+				C4C1A4861F1F37870043F63B /* addressModel.m */,
 				C4C1A4531F1F37740043F63B /* AppDelegate.h */,
 				C4C1A4541F1F37740043F63B /* AppDelegate.m */,
-				C4C1A4561F1F37740043F63B /* ViewController.h */,
-				C4C1A4571F1F37740043F63B /* ViewController.m */,
 				C4C1A4591F1F37740043F63B /* Main.storyboard */,
 				C4C1A45C1F1F37740043F63B /* Assets.xcassets */,
 				C4C1A45E1F1F37740043F63B /* LaunchScreen.storyboard */,
@@ -147,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4C1A47A1F1F37740043F63B /* Build configuration list for PBXNativeTarget "省市区pickerDemo" */;
 			buildPhases = (
+				DF276E8BF122969CFD313125 /* [CP] Check Pods Manifest.lock */,
 				C4C1A4491F1F37740043F63B /* Sources */,
 				C4C1A44A1F1F37740043F63B /* Frameworks */,
 				C4C1A44B1F1F37740043F63B /* Resources */,
+				36D583609C6FEEEEDE9F6B57 /* [CP] Embed Pods Frameworks */,
+				5D201FB8DEAE8940506F80C0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +283,7 @@
 			files = (
 				C4C1A4601F1F37740043F63B /* LaunchScreen.storyboard in Resources */,
 				C4C1A45D1F1F37740043F63B /* Assets.xcassets in Resources */,
+				C4C1A48C1F1F39BF0043F63B /* area.json in Resources */,
 				C4C1A45B1F1F37740043F63B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,12 +304,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36D583609C6FEEEEDE9F6B57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-省市区pickerDemo/Pods-省市区pickerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D201FB8DEAE8940506F80C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-省市区pickerDemo/Pods-省市区pickerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF276E8BF122969CFD313125 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C4C1A4491F1F37740043F63B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4C1A4581F1F37740043F63B /* ViewController.m in Sources */,
+				C4C1A4891F1F37870043F63B /* addressModel.m in Sources */,
+				C4C1A4881F1F37870043F63B /* ViewController.m in Sources */,
 				C4C1A4551F1F37740043F63B /* AppDelegate.m in Sources */,
 				C4C1A4521F1F37740043F63B /* main.m in Sources */,
 			);
@@ -424,6 +509,7 @@
 		};
 		C4C1A47B1F1F37740043F63B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9663D5E61C9D409302950F56 /* Pods-省市区pickerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "省市区pickerDemo/Info.plist";
@@ -435,6 +521,7 @@
 		};
 		C4C1A47C1F1F37740043F63B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01D8FDD0976092A2F8B94897 /* Pods-省市区pickerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "省市区pickerDemo/Info.plist";
@@ -509,6 +596,7 @@
 				C4C1A47C1F1F37740043F63B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4C1A47D1F1F37740043F63B /* Build configuration list for PBXNativeTarget "省市区pickerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +605,7 @@
 				C4C1A47F1F1F37740043F63B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4C1A4801F1F37740043F63B /* Build configuration list for PBXNativeTarget "省市区pickerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +614,7 @@
 				C4C1A4821F1F37740043F63B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
